@@ -2,8 +2,6 @@
 
 Finds routes, dependencies and tokens in your front-end and generate an HTML report.
 
-![report!](report-example.png)
-
 ## Features
 
 - Fetches page source code using Chrome Developer Protocol (CDP) via the ```chromedp``` library
@@ -31,6 +29,9 @@ go build front-parser.go
 ./front-parser https://app.example.com/
 ```
 
-  ## Usage Example
+## Usage Example
 
-  ![com!](com.png)
+![com!](com.png)
+
+## Report
+![report!](report-example.png)
